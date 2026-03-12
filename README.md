@@ -11,7 +11,7 @@
 1. [How to Read This Document](#1-how-to-read-this-document)
 2. [Base Game Systems](#2-base-game-systems)
 3. [Custom Systems](#3-custom-systems)
-4. [Systems At a Glance](#4-systems-at-a-glance)
+4. [Systems At a Glance](#4-overview)
 5. [Open Decisions](#5-open-decisions)
 
 ---
@@ -184,9 +184,10 @@ Shared utility module. Sets debounce intervals for any action across any system.
 
 Usage pattern:
 ```lua
-if Cooldowns:IsReady("GunFire_" .. player.UserId) then
-    Cooldowns:Set("GunFire_" .. player.UserId, 0.1)
-    -- handle fire
+local Cooldowns = cooldowns.new("cooldown" .. player.UserId)
+if cooldowns:IsReady("cooldown" .. player.UserId) then
+    coldowns:Set("cooldown" .. player.UserId, 0.1)
+    -- handlers
 end
 ```
 
@@ -213,9 +214,9 @@ Needs to be developed from scratch.
 
 ---
 
-### Flight System `(N)`
+### Flight System `(H)`
 
-> To be purchased — greenlit as BF2 Starfighter system base, extended for this project.
+> Greenlit acquired
 
 Planned features:
 - Multiple flight configs: gravity-based (traditional), gravity-defying (TIE fighters), custom physics profiles
@@ -232,7 +233,7 @@ Two delivery paths being considered:
 | Path | Delivery Time |
 |------|--------------|
 | Purchase premade system | Under 1 day (setup + configs) |
-| Custom from scratch | 4–5 days |
+| Custom from scratch(not completely) | 4–5 days |
 
 ---
 
@@ -280,12 +281,12 @@ Highly detailed, server-authoritative medical simulation. Fully configurable gor
 
 ---
 
-## 4. Systems At a Glance
+## 4. overview
 
 | System | Tag | Needs Decision |
 |--------|-----|----------------|
 | PlayerCharacterConfigs | `(H)` | Rig type |
-| PlayerData System | `(H)` | Data schema |
+| PlayerData System | `(H)` | Data scheme |
 | GroupData Module | `(Y)` | — |
 | Inventory / Item System | `(H)` | Inventory type |
 | Console / Command System | `(H)` | Premade vs custom |
@@ -312,7 +313,7 @@ Highly detailed, server-authoritative medical simulation. Fully configurable gor
 
 ## 5. Open Decisions
 
-These decisions are blocking or will significantly affect implementation. They need to be resolved before the relevant systems can be fully configured.
+These decisions are blocking or will significantly affect implementation. They need to be resolved before the relevant systems can be fully configured and presented from centralized assets.
 
 | # | Decision | Affects |
 |---|----------|---------|
@@ -329,4 +330,4 @@ These decisions are blocking or will significantly affect implementation. They n
 
 ---
 
-*Document maintained by keymandis. Update as decisions are made and systems progress.*
+*Document maintained by keymandis, supervised by TyrantLevel(Mike). Update as decisions are made and systems progress.*
