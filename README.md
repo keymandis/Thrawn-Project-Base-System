@@ -324,9 +324,8 @@ These decisions are blocking or will significantly affect implementation. They n
 | 5 | Flight handling — arcade or physics-based? | Flight system purchase spec |
 | 6 | Ground vehicles — purchase or build? | Vehicle system, timeline |
 | 7 | Physiology — default HP or custom medical? | Physiology, gun system, UI |
-| 8 | Formation system — built or commander-ordered? | Rank/team structure handler |
-| 9 | Discord bot integration scope? | Rank handler, announcement system |
-| 10 | Centralized dev environment — when? | All systems, asset pipeline |
+| 8 | Discord bot integration scope? | Rank handler, announcement system |
+| 9 | Centralized dev environment — when? | All systems, asset pipeline |
 
 ---
 
