@@ -7,11 +7,23 @@
 
 ## Table of Contents
 
+0. [Changelog](#0-changelog)
 1. [How to Read This Document](#1-how-to-read-this-document)
 2. [Base Game Systems](#2-base-game-systems)
 3. [Custom Systems](#3-custom-systems)
 4. [Systems At a Glance](#4-systems-at-a-glance)
 5. [Open Decisions](#5-open-decisions)
+
+---
+ 
+## 0. Changelog
+ 
+All notable updates to this document are recorded here. Most recent first.
+ 
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 0.1 | 2026-03-13 | keymandis | Initial document. Base systems, custom systems, open decisions, systems documented. |
+| 0.2 | 2026-03-13| keymandis | Added section 0 for documenting changelogs for base system. |
 
 ---
 
