@@ -13,7 +13,6 @@
 3. [Custom Systems](#3-custom-systems)
 4. [Systems At a Glance](#4-overview)
 5. [Open Decisions](#5-open-decisions)
-6. [Decided](#6-decided)
 
 ---
  
@@ -26,6 +25,7 @@ All notable updates to this document are recorded here. Most recent first.
 | 0.1 | 2026-03-13 | keymandis | Initial document. Base systems, custom systems, open decisions, systems documented. |
 | 0.2 | 2026-03-13 | keymandis | Added section 0 for documenting changelogs for base system. |
 | 0.3 | 2026-03-13 | keymandis | prepared docs for release logging, added #6. decided |
+| 0.4 | 2026-03-14 | keymandis | this doc has been updated |
 
 ---
 
@@ -287,49 +287,33 @@ Highly detailed, server-authoritative medical simulation. Fully configurable gor
 
 | System | Tag | Needs Decision |
 |--------|-----|----------------|
-| PlayerCharacterConfigs | `(H)` | Rig type |
-| PlayerData System | `(H)` | Data scheme |
+| PlayerCharacterConfigs | `(H)` | — |
+| PlayerData System | `(H)` | — |
 | GroupData Module | `(Y)` | — |
-| Inventory / Item System | `(H)` | Inventory type |
-| Console / Command System | `(H)` | Premade vs custom |
-| Main Menu | `(H)` | Menu vs direct entry |
+| Inventory / Item System | `(H)` | — |
+| Console / Command System | `(H)` | — |
+| Main Menu | `(H)` | — |
 | Error Handling | `(Y)` | — |
 | FPS / Ping Display | `(Y)` | — |
 | Sprint System | `(Y)` | — |
-| Morph Loader | `(Y)` | Clothing type |
+| Morph Loader | `(Y)` | — |
 | Request Throttlers | `(Y)` | — |
 | Anti-Cheat Helpers | `(Y)` | — |
 | Map Object Handlers | `(Y)` | — |
 | Map Loader | `(Y)` | — |
-| Rank / Team Structure | `(H)` | Discord integration scope |
+| Rank / Team Structure | `(H)` | — |
 | Gun System | `(H)` | — |
 | Cooldowns Module | `(Y)` | — |
 | Map Objectives | `(N)` | — |
 | Environmental Destruction | `(H)` | — |
 | STC System | `(N)` | — |
-| Flight System | `(N)` | Arcade vs physics |
-| Ground Vehicle System | `(H)` | Purchase vs custom |
-| Physiology System | `(H)` | Tier 1 vs Tier 2 |
+| Flight System | `(N)` | — |
+| Ground Vehicle System | `(H)` | — |
+| Physiology System | `(H)` | — |
 
 ---
 
 ## 5. Open Decisions
-
-These decisions are blocking or will significantly affect implementation. They need to be resolved before the relevant systems can be fully configured and presented from centralized assets.
-
-| # | Decision | Affects |
-|---|----------|---------|
-| 1 | R6 or R15 rig? | PlayerCharacterConfigs, animations, physiology |
-| 2 | Inventory type? (Fixed / Grid / Radial / Weapon wheel) | Inventory system, item system, UI |
-| 3 | Main menu or direct entry? | Main menu, map loader |
-| 4 | Console — premade or custom? | Console/command system, rank integration |
-| 5 | Flight handling — arcade or physics-based? | Flight system purchase spec |
-| 6 | Ground vehicles — purchase or build? | Vehicle system, timeline |
-| 7 | Physiology — default HP or custom medical? | Physiology, gun system, UI |
-| 8 | Discord bot integration scope? | Rank handler, announcement system |
-| 9 | Centralized dev environment — when? | All systems, asset pipeline |
-
-## 6. Decided
 
 These are the open decisions discussed and voted in the dev GC on 2026-03-13
 
@@ -346,10 +330,9 @@ These are the open decisions discussed and voted in the dev GC on 2026-03-13
 | 3 | Main menu or direct entry? | ✅ — Direct Entry for pre-alpha |
 | 4 | Console — premade or custom? | ✅ — Custom |
 | 5 | Flight handling — arcade or physics-based? | ✅ — Both - customizable |
-| 6 | Ground vehicles — purchase or scratch? | 🟨 |
+| 6 | Ground vehicles — purchase or scratch? | ✅ — Purchased |
 | 7 | Physiology — default HP or custom medical? | ✅ — Both - customizable between default&medical |
-| 8 | Discord bot integration scope? | ❌ |
-| 9 | Centralized dev environment — when? | ❌ |
+| **8** | Centralized dev environment — when? | 🟨 — Decided in a week or so |
 
 
 ---
