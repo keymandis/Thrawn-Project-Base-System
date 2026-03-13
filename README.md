@@ -1,6 +1,6 @@
 # Thrawn Project — Base Systems Prototype Documentation
 
-> **Status:** Pre-Alpha — Active Development  
+> **Status:** Target Pre-Alpha — Active Development  
 > **Context:** Assets and systems are currently decentralized across multiple developers(models, scripts, ui's). A unified developer environment is not yet available. This document serves as the authoritative reference for all planned and in-progress systems so incoming team members understand implementation status before a centralized build exists.
 
 ---
@@ -326,6 +326,29 @@ These decisions are blocking or will significantly affect implementation. They n
 | 7 | Physiology — default HP or custom medical? | Physiology, gun system, UI |
 | 8 | Discord bot integration scope? | Rank handler, announcement system |
 | 9 | Centralized dev environment — when? | All systems, asset pipeline |
+
+## 6. Decided
+
+These are the open decisions discussed and voted in the dev GC on 2026-03-13
+
+| Tag | Quo |
+|-----|---------|
+| `✅` | Verdict ready |
+| `🟨` | Verdict underway |
+| `❌` | Verdict unavailable |
+
+| # | Decision | Verdict |
+|---|----------|---------|
+| 1 | R6 or R15 rig? | ✅ — R15 |
+| 2 | Inventory type? (Fixed / Grid / Radial / Weapon wheel) | ✅ — Radial |
+| 3 | Main menu or direct entry? | ✅ — Direct Entry for pre-alpha |
+| 4 | Console — premade or custom? | 🟨 |
+| 5 | Flight handling — arcade or physics-based? | ❌ |
+| 6 | Ground vehicles — purchase or scratch? | ❌ |
+| 7 | Physiology — default HP or custom medical? | ❌ |
+| 8 | Discord bot integration scope? | ❌ |
+| 9 | Centralized dev environment — when? | ❌ |
+
 
 ---
 
