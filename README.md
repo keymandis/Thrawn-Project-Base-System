@@ -182,7 +182,7 @@ Server-authoritative firearm system. Exploit-proof by design.
 
 ### Cooldowns Module `(Y)`
 
-Shared utility module. Sets debounce intervals for any action across any system. Ready to import and use immediately.
+Shared utility module example. Sets debounce intervals for any action across any system. Ready to import and use immediately.
 
 Usage pattern:
 ```lua
@@ -344,10 +344,10 @@ These are the open decisions discussed and voted in the dev GC on 2026-03-13
 | 1 | R6 or R15 rig? | ✅ — R15 |
 | 2 | Inventory type? (Fixed / Grid / Radial / Weapon wheel) | ✅ — Radial |
 | 3 | Main menu or direct entry? | ✅ — Direct Entry for pre-alpha |
-| 4 | Console — premade or custom? | 🟨 |
-| 5 | Flight handling — arcade or physics-based? | ❌ |
-| 6 | Ground vehicles — purchase or scratch? | ❌ |
-| 7 | Physiology — default HP or custom medical? | ❌ |
+| 4 | Console — premade or custom? | ✅ — Custom |
+| 5 | Flight handling — arcade or physics-based? | ✅ — Both - customizable |
+| 6 | Ground vehicles — purchase or scratch? | 🟨 |
+| 7 | Physiology — default HP or custom medical? | ✅ — Both - customizable between default&medical |
 | 8 | Discord bot integration scope? | ❌ |
 | 9 | Centralized dev environment — when? | ❌ |
 
