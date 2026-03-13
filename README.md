@@ -13,6 +13,7 @@
 3. [Custom Systems](#3-custom-systems)
 4. [Systems At a Glance](#4-overview)
 5. [Open Decisions](#5-open-decisions)
+6. [Decided](#6-decided)
 
 ---
  
@@ -23,7 +24,8 @@ All notable updates to this document are recorded here. Most recent first.
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 0.1 | 2026-03-13 | keymandis | Initial document. Base systems, custom systems, open decisions, systems documented. |
-| 0.2 | 2026-03-13| keymandis | Added section 0 for documenting changelogs for base system. |
+| 0.2 | 2026-03-13 | keymandis | Added section 0 for documenting changelogs for base system. |
+| 0.3 | 2026-03-13 | keymandis | prepared docs for release logging, added #6. decided |
 
 ---
 
